@@ -1,0 +1,258 @@
+body{
+   
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+header{
+    background-color: rgba(245, 222, 179, 0.755);
+    width: 100%;
+    height: 50px;
+    color: #6D2323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.hero{
+    background-image: url(cake.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #6D2323;
+}
+
+footer{
+    background-color: #E5D0AC;
+    height: 50px;
+    width: 100%;
+    
+   
+}
+#o_nas{
+display: flex;
+background-color: #A31D1D;
+color: #E5D0AC;
+}
+
+#f_media{
+    margin-right: 19vw;
+    margin-left: 1vw;
+}
+
+
+#f_media a{
+   color: #FEF9E1;
+}
+
+#f_kontakt{
+    margin-right: 19vw;
+    
+}
+
+
+#f_adres{
+    margin-right: 19vw;
+    
+}
+
+.konfitura{
+    margin: 0px;
+
+}
+#foot_main{
+    background-color:#FEF9E1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.konfitura{
+    color: #6D2323;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    margin: 1vw;
+}
+.menu{
+    position: relative;
+    top: 17.5px;
+    height: 50px;
+    width: auto;
+}
+.menu:hover{
+    cursor: pointer;
+}
+#side-menu{
+    background-color: rgba(245, 222, 179, 0.755);
+    color: #6D2323;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 0vh;
+    width: 10vw;
+    opacity: 0.9;
+    border-bottom-left-radius: 20px;
+    transition: .3s ease-in;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.menu-sect{
+    color: #6D2323;
+    right: 1vw;
+    position: absolute;
+    display: flex;
+    transition: .5 ease-in;
+    user-select: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.menu-option{
+    transition: .2s;
+    color: #350606;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    &:hover{
+        text-decoration: underline;
+        transform: scale(1.05);
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #E5D0AC;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+
+#heroNas{
+    width: 100%;
+    height: 200svh; 
+    background: repeating-linear-gradient(45deg, wheat, wheat 10px, burlywood 10px, burlywood 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+#historia{
+    height: 30%;
+    width: 70%;
+    color: black;
+    font-size: 25px;
+    background-size: cover;
+    background-image: url("imgs/gazeta.png");
+    border-radius: 100px;
+    border: black 5px solid;
+    padding-left: 30px;
+    margin: 50px;
+    overflow: scroll;
+    scrollbar-width: none; /*firefox*/
+&::-webkit-scrollbar {
+    display: none; /*chrome safari edge*/
+
+}
+}
+
+#historia>p{
+    margin: 5px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+#kucharze{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.cook{
+    width: 50%;
+    height: 100%;
+    margin: 25px;
+    transition: .3s ease;
+    padding: 15px;
+    
+}
+
+#pomocnik{
+    background-image: url("imgs/cook_1.jpg");
+
+}
+
+#zalozyciel{
+    background-image: url("imgs/cook_2.jpg");
+}
+
+#kucharze>section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    transition: .3s ease;
+    border: 2px black solid;
+    &:hover{
+        transform: scale(1.05);
+        flex-grow: 2;
+        border-radius: 50px;
+    }
+}
+
+
+#head{
+    color: #6D2323;
+    
+
+}
+
+#historia-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#historia-title{
+    display: flex;
+    justify-content: center;
+}
+/*Scrollbar*/
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #e7dba6;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: rgb(192, 154, 104);
+
+}

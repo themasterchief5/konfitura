@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfitura</title>
+    <link rel="stylesheet" href="oferty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylejs.css">
+    <link rel="icon" type="img/png" href="imgs/jungkonfi.png">
+    
+</head>
+<body>
+    <header>
+    
+        <a href="index.html"><img src="imgs/jungkonfiIIIIIIII.PNG.webp" alt="Log" height="45px"></a>
+    <div class="menu-sect">
+        <h1>MENU</h1><img src="imgs/jungkonfi.png" alt="MENU" class="menu">
+    </div>
+    <section id="side-menu">
+        <a href="oNas.html#kucharze" class="menu-option">O nas</a>
+        <a href="oNas.html" class="menu-option">Historia</a>
+        <a href="oferty.html#oferty" class="menu-option">Oferty</a> 
+        <a href="oferty.html#order" class="menu-option">Złóż zamówienie</a> 
+        <a href="#f_kontakt" class="menu-option">Kontakt</a> 
+        <a href="opinie.php" class="menu-option">Opinie</a>
+    </section>
+                
+    </header>
+
+
+    <main>
+        <h2 id="oferty">Nasze Wypieki</h2>
+        <section id="siatka">
+            <section>
+                <div class="option-title">Makowiec tradycyjny </div>
+                <div class="option-image"><img src="oferty-ciasta/makowiec.jpg" alt=""></div><div class="option-lore">Aromatyczne ciasto z bogatym nadzieniem makowym i delikatnym ciastem.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Szarlotka sypana </div>
+                <div class="option-image"><img src="oferty-ciasta/szarlotka.jpg" alt=""></div>
+                <div class="option-lore">Tradycyjne ciasto z warstwami soczystych jabłek i cynamonu.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Marchewkowe z lukrem </div>
+                <div class="option-image"><img src="oferty-ciasta/marchewkowe.jpg" alt=""></div>
+                <div class="option-lore">Wilgotne ciasto marchewkowe z aksamitną polewą waniliową.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Drożdżowe z kruszonką </div>
+                <div class="option-image"><img src="oferty-ciasta/drozdzowe.jpg" alt=""></div>
+                <div class="option-lore">Miękkie ciasto drożdżowe z maślaną, chrupiącą kruszonką.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Ciasto bananowe </div>
+                <div class="option-image"><img src="oferty-ciasta/bananowe.jpg" alt=""></div>
+                <div class="option-lore">Aromatyczne ciasto o wilgotnej konsystencji z dojrzałymi bananami.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Piernik klasyczny </div>
+                <div class="option-image"><img src="oferty-ciasta/piernikowe.jpg" alt=""></div>
+                <div class="option-lore">Korzenne ciasto o głębokim smaku i puszystej strukturze.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Miodownik </div>
+                <div class="option-image"><img src="oferty-ciasta/miodownik.jpg" alt=""></div>
+                <div class="option-lore">Delikatne ciasto miodowe z kremem na bazie śmietany.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Ciasto ucierane </div>
+                <div class="option-image"><img src="oferty-ciasta/ucierane.jpg" alt=""></div>
+                <div class="option-lore">Tradycyjne ciasto o maślanym smaku i puszystej konsystencji.</div>
+            </section>
+
+            <section>
+                <div class="option-title">Kruche z konfiturą </div>
+                <div class="option-image"><img src="oferty-ciasta/kruche-konfitura.jpg" alt=""></div>
+                <div class="option-lore">Maślane ciasto kruche z warstwą aromatycznej konfitury.</div>
+            </section>
+        </section>
+
+        <section id="order">
+            <!-- Zamówienie -->
+             
+            <section id="order-form">
+                <div class="option-title">
+                    <h2>Formularz zamówienia</h2>
+                </div>
+                <div class="option-title">
+                    Tylko odbiór osobisty
+                </div>
+                <section id="guard">
+                    <section id="dane">
+                        <h1 class="option-title">Dane klienta:</h1>
+                        <label>Imie: <br><input type="text" id="name-label"><br></label>
+                        <label>Nazwisko: <br><input type="text" id="surname-label"><br></label>
+                        <label>Email: <br><input type="mail" id="mail-label"><br></label>
+                        <label>Nr tel: <br><input type="tel" id="phone-label"><br></label>
+                        <label>Data odbioru: <br><input type="date" id="date-label"></label>
+                    </section>
+                    <section id="produkt">
+                        <h1 class="option-title">Wybór produktów:</h1>
+                        <fieldset>
+                            <legend>Dodaj produkt</legend>
+
+                            <section class="new-product">
+                                <div>
+                                    <p>Produkt: </p>
+                                    <select class="cake-select">
+                                        <option value="Ciasto pistacjowe" price="80">Ciasto pistacjowe 80zł</option>
+                                        <option value="Ciasto czekoladowe" price="60">Ciasto czekoladowe 60zł</option>
+                                        <option value="Sernik" price="60">Sernik 60zł</option>
+                                        <option value="Tiramisu" price="75">Tiramisu 75zł</option>
+                                        <option value="Ciasto owocowe" price="55">Ciasto owocowe 55zł</option>
+                                        <option value="Makowiec tradycyjny" price="60">Makowiec tradycyjny 60zł</option>
+                                        <option value="Szarlotka sypana" price="50">Szarlotka sypana 50zł</option>
+                                        <option value="Marchewkowe z lukrem" price="60">Marchewkowe z lukrem 60zł</option>
+                                        <option value="Drożdżowe z kruszonką" price="45">Drożdżowe z kruszonką 45zł</option>
+                                        <option value="Ciasto bananowe" price="50">Ciasto bananowe 50zł</option>
+                                        <option value="Piernik klasyczny" price="65">Piernik klasyczny 65zł</option>
+                                        <option value="Miodownik" price="75">Miodownik 75zł</option>
+                                        <option value="Ciasto ucierane" price="50">Ciasto ucierane 50zł</option>
+                                        <option value="Kruche z konfiturą" price="60">Kruche z konfiturą 60zł</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <p>Ilość:</p>
+                                    <input type="number" max="10" class="cake-num" value="1">
+                                </div>
+                                <button class="drop-product-btn">&#10006;</button>
+                            </section>
+
+                        </fieldset>
+                    </section>
+                </section>
+                <div class="option-title"><button class="next-button" id="summary-btn">Podsumowanie</button></div>
+            </section>
+            <!-- Podsumowanie -->
+            <section id="summary-sect">
+                <div class="option-title">
+                    <h2>Podsumowanie</h2>
+                </div>
+                    <section id="summary-guard">
+
+                    </section>
+                    <section class="option-title">
+                        <p id="succes-pay"></p>
+                    </section>
+                    <section class="option-title"><button class="next-button" id="pay-btn">Zapłać</button></section>
+            </section>
+                
+        </section>
+        
+    </main>
+
+    <footer>
+        <section id="foot_main"><img src="imgs/jungkonfi.png" alt="LOGO" height="95px"><h1 class="konfitura">KONFITURA</h1></section>
+
+
+        <section id="o_nas">
+            <section id="f_media">
+                Nasze media: <br>
+                <a href="https://www.instagram.com/konfitura.rzeszow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram" style="transform: scale(2);"></i></a>
+                <a href="https://www.facebook.com/RestauracjaKonfituraRzeszow/?locale=pl_PL" target="_blank"><i class="fa-brands fa-facebook" style="transform: scale(2);"></i></a>
+            </section>
+
+            <section id="f_kontakt">
+                Kontakt: <br>
+                Email: <div ><a href="mailto:konfitura@gmail.com">konfitura@gmail.com</a></div>
+                Telefon: <a href="tel:+48694 495 948">694 495 948</a>
+            </section>
+
+            <section id="f_adres">
+                Adres: <br>
+                <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x473cfb0221ec4f05:0x2ebbbc1065dcb7a4?sa=X&ved=1t:8290&ictx=111" target="_blank">Konfitura <br>
+                ul. Łaska 61 <br>
+                98-220 Zduńska Wola</a>
+            </section>
+
+            <section id="f_godziny">
+                Godziny otwarcia : <br>
+                Poniadziałek - Piątek: <br>
+                10 <sup>00</sup> - 18 <sup>00</sup> <br>
+                Sobota : <br>
+                10 <sup>00</sup> - 15 <sup>30</sup>
+            
+            </section>
+        </section>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="oferty.js"></script>
+</body>
+</html>

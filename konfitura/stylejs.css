@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: #6D2323;
+}
+
+#torty {
+    transition: .5s;
+    width: 60%;
+    height: 45vh;
+    background-color: wheat;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px #6D2323  solid;
+}
+
+.circle {
+    width: 6%;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.circle:hover {
+    transform: scale(1.2);
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cake-text-space{
+    height: 80%;
+    width: 30vw;
+    top: 3.5rem;
+    left: 9vw;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+}
+#cakes-img{
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+    top: 3vh;
+    height: 0px;
+    transition: .3s ease-in-out;
+    object-fit: cover;
+    max-height: calc(100% - 3vh);
+}
+#cake-vertical-line{
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    left: 12%;
+    border: 1px solid rgb(85, 85, 85);
+}
+#circle1 {
+    top: 4%;
+}
+#circle2 {
+    top: 22.5%;
+}
+#circle3 {
+    top: 41.5%;
+}
+#circle4 {
+    top: 60.5%;
+}
+#circle5 {
+    top: 79%;
+}
+/*Scrollbar*/
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #e7dba6;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: rgb(192, 154, 104);
+
+}
